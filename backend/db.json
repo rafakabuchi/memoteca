@@ -47,6 +47,12 @@
       "autoria": "Curso Angular",
       "modelo": "modelo1",
       "id": 8
+    },
+    {
+      "conteudo": "força feminina!",
+      "autoria": "Spice Girs",
+      "modelo": "modelo2",
+      "id": 9
     }
   ]
 }
