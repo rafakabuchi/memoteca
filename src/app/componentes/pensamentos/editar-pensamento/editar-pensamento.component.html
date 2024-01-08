@@ -2,7 +2,7 @@
   <header class="header">
     <h2>Adicione um <br>pensamento novo:</h2>
   </header>
-  <form [formGroup]="formulario">
+  <form [formGroup]="formulario" *ngIf="formulario">
     <label for="pensamento">Pensamento</label>
     <input type="text" class="input" id="pensamento" formControlName="conteudo" placeholder="Digite o pensamento">
     <div class="mensagem__erro" *ngIf="formulario.get('conteudo')?.errors && formulario.get('conteudo')?.touched">
